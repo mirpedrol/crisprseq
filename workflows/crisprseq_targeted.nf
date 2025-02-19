@@ -602,6 +602,7 @@ workflow CRISPRSEQ_TARGETED {
         BOWTIE2_ALIGN (
             ch_preprocess_reads,
             BOWTIE2_BUILD.out.index,
+            [],
             false,
             true
         )

@@ -126,6 +126,7 @@ workflow CRISPRSEQ_SCREENING {
             BOWTIE2_ALIGN (
             ch_input,
             BOWTIE2_BUILD.out.index,
+            [],
             false,
             false
             )
